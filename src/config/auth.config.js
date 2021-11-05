@@ -1,5 +1,7 @@
+import { SECRET } from './variables.config'
+
 module.exports = {
-  secret: '3J*;pQMX9Lk0^$ZnV@R5',
+  secret: SECRET,
   // 1 hour
   // jwtExpiration: 3600,
   // 24 hours
